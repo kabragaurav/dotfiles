@@ -1,7 +1,20 @@
-DOTFILES
+# DOTFILES
+
 by Gaurav Kabra
 
 # How To Install
+
+---
+
+If you don't want to clone this repo:
+```
+bash <(curl -s https://raw.githubusercontent.com/kabragaurav/dotfiles/master/install.sh)
+```
+
+---
+
+Otherwise
+Clone the repo and `cd` to it.
 
 ```
 chmod +x install.sh
