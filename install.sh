@@ -1,7 +1,18 @@
 #!/bin/bash
 
-# Function to install zsh based on OS
 echo "### By GAURAV KABRA ###"
+
+# Function to install Xcode Command Line Tools on macOS
+install_xcode_tools() {
+    if [ "$(uname)" == "Darwin" ]; then
+        if ! xcode-select -p &> /dev/null; then
+            echo "Installing Xcode Command Line Tools..."
+            xcode-select --install
+        fi
+    fi
+}
+
+# Function to install zsh based on OS
 install_zsh() {
     if [ -f /etc/os-release ]; then
         . /etc/os-release
@@ -20,10 +31,10 @@ install_zsh() {
             ;;
         centos|rhel)
             echo "Installing Zsh on CentOS/RHEL..."
-            sudo yum install -y zsh
+            sudo yum install -y epel-release && sudo yum install -y zsh
             ;;
         macOS)
-            # Check if Homebrew is installed
+            install_xcode_tools
             if ! command -v brew &> /dev/null; then
                 echo "Homebrew not found. Installing Homebrew..."
                 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -88,4 +99,3 @@ fi
 
 echo "Antigen setup complete!"
 echo "### By GAURAV KABRA ###"
-zsh
