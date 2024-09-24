@@ -19,6 +19,7 @@ install_zsh() {
             ;;
         centos|rhel)
             echo "Installing Zsh on CentOS/RHEL..."
+            sudo apt-get install yum
             sudo yum install -y zsh
             ;;
         macOS)
@@ -86,3 +87,4 @@ if [[ $SHELL != *zsh ]]; then
 fi
 
 echo "Antigen setup complete!"
+zsh
