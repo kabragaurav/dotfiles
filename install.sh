@@ -19,6 +19,8 @@ install_zsh() {
             ;;
         centos|rhel)
             echo "Installing Zsh on CentOS/RHEL..."
+            wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.4_amd64.deb
+            sudo dpkg -i apt_1.4_amd64.deb
             sudo apt-get install yum
             sudo yum install -y zsh
             ;;
