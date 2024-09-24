@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Function to install zsh based on OS
+echo "### By GAURAV KABRA ###"
 install_zsh() {
     if [ -f /etc/os-release ]; then
         . /etc/os-release
@@ -19,9 +20,6 @@ install_zsh() {
             ;;
         centos|rhel)
             echo "Installing Zsh on CentOS/RHEL..."
-            wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.4_amd64.deb
-            sudo dpkg -i apt_1.4_amd64.deb
-            sudo apt-get install yum
             sudo yum install -y zsh
             ;;
         macOS)
@@ -89,4 +87,5 @@ if [[ $SHELL != *zsh ]]; then
 fi
 
 echo "Antigen setup complete!"
+echo "### By GAURAV KABRA ###"
 zsh
