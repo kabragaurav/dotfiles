@@ -79,7 +79,6 @@ antigen use oh-my-zsh
 # Load bundles from the default repo (oh-my-zsh).
 antigen bundle git
 antigen bundle command-not-found
-antigen bundle docker
 # Load bundles from external repos.
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
