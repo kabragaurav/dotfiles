@@ -2,7 +2,7 @@
 
 by Gaurav Kabra
 
-Make you boring terminal amazing!
+Make you boring terminal amazing 💥!
 
 ![](./assets/before.png)
 
@@ -31,7 +31,7 @@ chsh -s /bin/zsh
 ```
 
 
-Script achieves terminal setup <a href="https://levelup.gitconnected.com/zsh-antigen-oh-my-zsh-a-beautiful-powerful-robust-shell-ca5873821671">Zsh + Antigen + Oh my Zsh = A Beautiful, Powerful, and Robust Shell</a>
+Script achieves terminal setup mentioned as <a href="https://levelup.gitconnected.com/zsh-antigen-oh-my-zsh-a-beautiful-powerful-robust-shell-ca5873821671">Zsh + Antigen + Oh my Zsh = A Beautiful, Powerful, and Robust Shell</a>
 
 
 # Well Tested
@@ -59,3 +59,5 @@ Clone the repo and `cd` to it. Then execute:
 chmod +x uninstall.sh
 ./uninstall.sh
 ```
+
+Note that for changes to be reflected, you may need to relaunch your terminal or open a new terminal tab.
