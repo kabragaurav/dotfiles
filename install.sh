@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "### By GAURAV KABRA ###"
+echo "### Running installation script By GAURAV KABRA ###"
 
 # Function to install Xcode Command Line Tools on macOS
 install_xcode_tools() {
@@ -97,4 +97,4 @@ if [[ $SHELL != *zsh ]]; then
 fi
 
 echo "Antigen setup complete!"
-echo "### By GAURAV KABRA ###"
+echo "### Completed installation script By GAURAV KABRA ###"
