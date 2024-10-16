@@ -2,10 +2,9 @@
 
 by Gaurav Kabra
 
-```
 Make your boring terminal amazing 💥 because we all have specific ways of setting up our computer:
 The apps we use, our IDE settings, what shell we prefer, what programming languages we work with, the tools we prefer.
-```
+Dotfiles are personal. There is no silver bullet or a one way to rule them all setup.
 
 ![](./assets/before.png)
 
