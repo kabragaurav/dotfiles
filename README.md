@@ -2,7 +2,10 @@
 
 by Gaurav Kabra
 
-Make you boring terminal amazing 💥!
+```
+Make your boring terminal amazing 💥 because we all have specific ways of setting up our computer:
+The apps we use, our IDE settings, what shell we prefer, what programming languages we work with, the tools we prefer.
+```
 
 ![](./assets/before.png)
 
