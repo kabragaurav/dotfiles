@@ -84,7 +84,7 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 # Select theme.
-antigen theme jonathan
+antigen theme frontcube # Other good options: jonathan, cloud, amuse, af-magic, miloshadzic
 # Tell Antigen that you're done.
 antigen apply
 EOT
